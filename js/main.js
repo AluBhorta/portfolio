@@ -12,3 +12,9 @@ for (const btn of navBtns) {
     }
   });
 }
+
+function handleSubmit(e) {
+  // e.preventDefault();
+  console.log(window.event);
+  console.log(e);
+}
