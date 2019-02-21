@@ -1,20 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- font: Montserrat -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+
+    <title>Farhim Ferdous | Portfolio</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>AluBhorta | Portfolio</title>
-    <link rel="stylesheet" href="./styles/main.css" />
   </head>
   <body>
-    <!-- header -->
+    <!-- nav -->
+    <div id="nav" class="nav">
+      <ul class="nav-btn-container">
+        <li><a class="nav-btn active" href="#home">Home</a></li>
+        <li><a class="nav-btn" href="#about">About</a></li>
+        <li><a class="nav-btn" href="#skills">Skills</a></li>
+        <li>
+          <a class="nav-btn" href="#projects">Projects</a>
+        </li>
+        <li><a class="nav-btn" href="#contact">Contact</a></li>
+      </ul>
+    </div>
 
     <!-- main-content -->
+    <div class="main-content">
+      <!-- home -->
+      <div id="home" class="home">
+        <h1 class="home-title">Farhim Ferdous</h1>
+        <div class="home-subtitle">
+          <h3>Software Developer | UI/UX Designer | Open Source Enthusiast</h3>
+        </div>
+        <img class="home-img" alt="profile-image" />
+        <div class="home-desc">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+            laboriosam eos obcaecati at eius, omnis repellat provident nemo, cum
+            veniam temporibus consequuntur culpa eveniet quas enim sapiente
+            soluta magni ut aperiam error delectus consectetur voluptate
+            eligendi. Possimus nisi sapiente unde neque officiis.
+          </p>
+        </div>
+      </div>
 
-    <!-- sidebar -->
+      <!-- about me -->
+      <div id="about" class="about ">
+        <h1 class="section-title">About Me</h1>
+        <!-- objective -->
+        <div id="objective" class="objective">
+          <h2>Objectives</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+            suscipit, magni sed excepturi eveniet repellat. Ducimus dicta
+            mollitia est quasi, odit explicabo quidem quo qui, nobis esse
+            perspiciatis, quia aliquid doloremque dignissimos cum molestias
+            ratione.
+          </p>
+        </div>
 
-    <!-- footer -->
+        <!-- edu -->
+        <div class="edu">
+          <h2>Education</h2>
+          <h3>
+            Bachelors in Computer Science:
+            <small><em>(Currently Ongoing)</em></small>
+            <br />
+          </h3>
+          <a href="http://www.iub.edu.bd/"
+            ><strong>Independent University, Bangladesh - IUB</strong></a
+          >
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
+            delectus cumque, accusamus illo quaerat quas ab excepturi omnis fuga
+            vero perferendis voluptatibus porro dolorem.
+          </p>
+        </div>
+      </div>
+      <!-- skills -->
+
+      <div id="skills" class="skills ">
+        <h1 class="section-title">My Skills</h1>
+        <div class="skill-cols">
+          <div class="skill-col-1">
+            <h2>Front End</h2>
+            <h4>Web</h4>
+            <p>
+              HTML5, CSS3, Sass, Bootstrap, JavaScript, jQuery, ReactJS
+            </p>
+            <h4>Other</h4>
+            <p>
+              Java Swing GUI Builder
+            </p>
+          </div>
+          <div class="skill-col-2">
+            <h2>Back End</h2>
+            <h4>Stacks</h4>
+            <p>
+              NodeJS, Express
+              <br />
+              PHP, Apache, XAMPP
+            </p>
+            <h4>Databases</h4>
+            <p>
+              MySQL, PostgreSQL, MongoDB
+            </p>
+          </div>
+          <div class="skill-col-3">
+            <h2>Others</h2>
+            <p>
+              Linux, Git
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- projects / experience -->
+      <div id="projects" class="projects">
+        <h1 class="section-title">Projects</h1>
+        <div class="project-showcase">
+          <div class="project-1">
+            <img src="" alt="project-thumnail" class="prj-img" />
+            <h3 class="prj-title">Winter Parallax</h3>
+            <p class="prj-desc">
+              A mockup HTML | CSS Site using basic Parallax Effect.
+            </p>
+            <div class="prj-links">
+              <a href="#" class="prj-view">View Project</a
+              ><a href="#" class="prj-src">View Source</a>
+            </div>
+          </div>
+          <div class="project-2">
+            <img src="" alt="project-thumnail" class="prj-img" />
+            <h3 class="prj-title">Grid Image Gallery</h3>
+            <p class="prj-desc">
+              A responsive image gallery using CSS Grid and Javascript which
+              optimally places randomly sized images into a Complex Gird.
+            </p>
+            <div class="prj-links">
+              <a href="#" class="prj-view">View Project</a
+              ><a href="#" class="prj-src">View Source</a>
+            </div>
+          </div>
+          <div class="project-3">
+            <img src="" alt="project-thumnail" class="prj-img" />
+            <h3 class="prj-title">React Meme Generator</h3>
+            <p class="prj-desc">
+              A simple react application to make your own memes.
+              <em>"Don't Let your Memes be Dreams."</em>
+            </p>
+            <div class="prj-links">
+              <a href="#" class="prj-view">View Project</a
+              ><a href="#" class="prj-src">View Source</a>
+            </div>
+          </div>
+          <div class="project-4">
+            <img src="" alt="project-thumnail" class="prj-img" />
+            <h3 class="prj-title">InterGrid</h3>
+            <p class="prj-desc">
+              A simple and responsive website for an imaginary company named
+              InterGrid by utilising the convenient yet powerful properties of
+              CSS Grid.
+            </p>
+            <div class="prj-links">
+              <a href="#" class="prj-view">View Project</a
+              ><a href="#" class="prj-src">View Source</a>
+            </div>
+          </div>
+          <div class="project-5">
+            <img src="" alt="project-thumnail" class="prj-img" />
+            <h3 class="prj-title">Coffee Koi</h3>
+            <p class="prj-desc">
+              Simple prototype site of a totally real coffee shop named 'Coffee
+              Koi'.
+            </p>
+            <div class="prj-links">
+              <a href="#" class="prj-view">View Project</a
+              ><a href="#" class="prj-src">View Source</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- contact / hire me -->
+      <div id="contact" class="contact">
+        <div class="contact-intro">
+          <p class="intro-1">Do want your own portfolio site?</p>
+          <p class="intro-2">
+            Do you wish to make an impact with your online presence?
+          </p>
+          <p class="intro-3">Do you want to give your startup idea a shot?</p>
+          <p class="intro-4">Do you want to grow your business?</p>
+          <p class="intro-5 intro-final">Then we should talk!</p>
+        </div>
+        <h1 class="section-title">Contact Me</h1>
+
+        <!-- form -->
+        <form>
+          <input type="text" placeholder="Enter your name" />
+          <br />
+          <input type="text" placeholder="Enter your email" />
+          <br />
+          <textarea placeholder="Enter your message"></textarea>
+          <br />
+          <button class="btn">Send</button>
+        </form>
+
+        <!-- soc -->
+        <div class="contact-socials">
+          <h3>Find me on other places on the Internet.</h3>
+          <ul>
+            <li>
+              Mail:
+              <a href="mailto:farhim.ferdous3@gmail.com"
+                >farhim.ferdous3@gmail.com</a
+              >
+            </li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Github</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- footer / soc links -->
+    <div id="footer" class="footer">
+      <strong>Farhim Ferdous &copy; 2019</strong>
+      <a href="#">View Source Code</a>
+    </div>
 
     <!-- js -->
     <script src="./js/main.js"></script>
