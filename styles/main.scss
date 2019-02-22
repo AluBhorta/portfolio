@@ -4,16 +4,18 @@ $main-col: #1e4272ec;
 $main-col-light: #485464ce;
 
 $main-orange-dark-col: #995e36d2;
-$main-orange-col: #d18d5fef;
+$main-orange-col: #d18d5fe5;
 $main-orange-light-col: #e0894ff8;
 
 $main-mint-dark-col: #4a6854;
 $main-mint-col: #45b66bed;
 $main-mint-light-col: #56e987ed;
 
+$firebrick: #b22222;
+
 $grey-dark: #2c2d36e5;
-$grey-light: #595b6df6;
-$grey-ultra-light: #ccc;
+$grey: #595b6df6;
+$grey-light: #ccc;
 
 $dark-col: #000000e1;
 $light-col: #fffffff5;
@@ -39,7 +41,7 @@ h4 {
   margin: 0;
 }
 
-// CUSTOM STYLes //
+// CUSTOM STYLES //
 
 // nav
 #nav {
@@ -48,7 +50,7 @@ h4 {
   top: 0;
   box-shadow: 0px 5px 10px $dark-col;
   z-index: 100;
-  background-color: $grey-light;
+  background-color: $grey;
 
   ul {
     margin: 0;
@@ -114,6 +116,7 @@ h4 {
 
   h3 {
     color: $main-mint-dark-col;
+    font-size: 1.4rem;
   }
 
   img {
@@ -122,6 +125,7 @@ h4 {
   }
 
   .home-desc-para {
+    font-size: 1.2rem;
     padding: 0 3rem;
     text-align: center;
     color: $light-col;
@@ -203,7 +207,7 @@ h4 {
     padding: 2rem;
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
     grid-gap: 1.5rem;
     justify-content: center;
 
@@ -218,7 +222,7 @@ h4 {
   .prj-links {
     a {
       text-decoration: none;
-      background-color: $grey-light;
+      background-color: $grey;
       color: $main-mint-col;
       border: $main-mint-col 1px solid;
       transition: 150ms all ease-in;
@@ -251,8 +255,8 @@ h4 {
     grid-gap: 5px;
 
     & > p {
-      box-shadow: 3px 3px 25px $main-mint-col;
-      background-color: $grey-ultra-light;
+      box-shadow: 3px 3px 15px $main-mint-col;
+      background-color: $grey-light;
       font-weight: bold;
       border-radius: 20px;
       padding: 5px 16px;
@@ -263,7 +267,7 @@ h4 {
 
     .intro-final {
       grid-column: 1/3;
-      box-shadow: 5px 5px 25px $main-col;
+      box-shadow: 5px 5px 15px $main-col;
     }
   }
 
@@ -275,7 +279,7 @@ h4 {
     textarea {
       max-width: 750px;
       width: 50vw;
-      box-shadow: 2px 2px 20px $grey-dark;
+      box-shadow: 2px 2px 10px $grey-dark;
       padding: 0.5rem;
     }
     textarea {
@@ -326,7 +330,7 @@ h4 {
       height: 50px;
       border-radius: 50%;
       cursor: pointer;
-      transition: 150ms ease-in-out;
+      transition: 500ms ease-out;
 
       &:hover {
         background-color: $main-orange-light-col;
@@ -345,7 +349,7 @@ h4 {
       padding: 10px 16px;
       margin-left: 2rem;
       border-radius: 5px;
-      background-color: $grey-light;
+      background-color: $grey;
       color: $main-mint-col;
       border: $main-mint-col 1px solid;
       transition: 150ms all ease-in;
@@ -356,4 +360,14 @@ h4 {
       }
     }
   }
+}
+
+// particle.js
+#particle-js {
+  height: 100vh;
+  width: 100%;
+  background-color: $dark-col;
+  position: fixed;
+  z-index: -10;
+  // opacity: 0.5;
 }

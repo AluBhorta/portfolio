@@ -28,6 +28,8 @@
       </ul>
     </div>
 
+    <div id="particle-js"></div>
+
     <!-- main-content -->
     <div class="main-content">
       <!-- home -->
@@ -277,7 +279,19 @@
       </div>
     </div>
 
-    <!-- js -->
+    <!-- particle.js -->
+    <script src="./particle.js/particles.js"></script>
+    <script>
+      particlesJS.load(
+        "particle-js",
+        "./particle.js/particles.json",
+        function() {
+          console.log("particles.js loaded - callback");
+        }
+      );
+    </script>
+
+    <!-- custom js -->
     <script src="./js/main.js"></script>
   </body>
 </html>
