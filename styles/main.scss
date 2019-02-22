@@ -55,7 +55,8 @@ h4 {
   ul {
     width: 100%;
     margin: 0;
-    padding: 1rem;
+    // padding: 1rem;
+    padding: 16px 20px;
   }
 
   li {
@@ -98,12 +99,16 @@ h4 {
   }
 }
 
+// main-content
+.main-content {
+  width: 100%;
+}
 // immedieate chilren to main-content
 .main-content > div {
   min-height: 100vh;
-  width: 100%;
+  min-width: 100%;
   background-color: $main-orange-col;
-  padding: 2rem;
+  padding-bottom: 2rem;
   display: grid;
 
   justify-items: center;
@@ -185,6 +190,7 @@ h4 {
 
 // skills
 #skills {
+  padding: 10px 0;
   .skill-cols {
     height: 80%;
     width: 100%;
@@ -217,11 +223,10 @@ h4 {
 
 // projects
 #projects {
-  h1 {
-    margin-bottom: 1.5rem;
-  }
+  width: 100%;
+
   .project-showcase {
-    padding: 2rem;
+    padding: 1rem;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
@@ -237,7 +242,16 @@ h4 {
   }
 
   .prj-links {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    justify-content: center;
+    grid-gap: 10px;
     a {
+      justify-self: center;
+      align-self: center;
+
+      max-width: 150px;
       text-decoration: none;
       background-color: $grey;
       color: $main-mint-col;
@@ -246,7 +260,6 @@ h4 {
 
       padding: 10px 16px;
       border-radius: 20px;
-      margin: 0 1rem;
 
       &:hover {
         background-color: $main-mint-col;
@@ -266,6 +279,7 @@ h4 {
 // contact
 #contact {
   .contact-intro {
+    padding: 1rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -387,7 +401,7 @@ h4 {
 // particle.js
 #particle-js {
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   background-color: $dark-col;
   position: fixed;
   z-index: -10;

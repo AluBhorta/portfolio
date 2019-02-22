@@ -32,7 +32,7 @@ h4 {
 #nav ul {
   width: 100%;
   margin: 0;
-  padding: 1rem;
+  padding: 16px 20px;
 }
 
 #nav li {
@@ -76,11 +76,15 @@ h4 {
   transition: 200ms ease-in-out;
 }
 
+.main-content {
+  width: 100%;
+}
+
 .main-content > div {
   min-height: 100vh;
-  width: 100%;
+  min-width: 100%;
   background-color: #d18d5fe5;
-  padding: 2rem;
+  padding-bottom: 2rem;
   display: -ms-grid;
   display: grid;
   justify-items: center;
@@ -163,6 +167,10 @@ h4 {
   color: #d18d5fe5;
 }
 
+#skills {
+  padding: 10px 0;
+}
+
 #skills .skill-cols {
   height: 80%;
   width: 100%;
@@ -203,12 +211,12 @@ h4 {
   color: #fffffff5;
 }
 
-#projects h1 {
-  margin-bottom: 1.5rem;
+#projects {
+  width: 100%;
 }
 
 #projects .project-showcase {
-  padding: 2rem;
+  padding: 1rem;
   width: 100%;
   display: -ms-grid;
   display: grid;
@@ -229,7 +237,25 @@ h4 {
   padding: 1rem;
 }
 
+#projects .prj-links {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(130px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  grid-gap: 10px;
+}
+
 #projects .prj-links a {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  max-width: 150px;
   text-decoration: none;
   background-color: #595b6df6;
   color: #45b66bed;
@@ -238,7 +264,6 @@ h4 {
   transition: 150ms all ease-in;
   padding: 10px 16px;
   border-radius: 20px;
-  margin: 0 1rem;
 }
 
 #projects .prj-links a:hover {
@@ -255,6 +280,7 @@ h4 {
 }
 
 #contact .contact-intro {
+  padding: 1rem;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[2];
@@ -401,7 +427,7 @@ h4 {
 
 #particle-js {
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   background-color: #000000e1;
   position: fixed;
   z-index: -10;
