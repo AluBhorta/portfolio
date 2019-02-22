@@ -17,7 +17,11 @@
   <body>
     <!-- nav -->
     <div id="nav" class="nav">
-      <ul class="nav-btn-container">
+      <div class="nav-toggle">
+        <img id="toggle-icon" src="./icons/menu.svg" alt="menu" height="30px" />
+      </div>
+
+      <ul class="nav-btn-container collapse">
         <li><a class="nav-btn active" href="#home">Home</a></li>
         <li><a class="nav-btn" href="#about">About</a></li>
         <li><a class="nav-btn" href="#skills">Skills</a></li>
@@ -275,6 +279,7 @@
       <!-- credits -->
       <div class="footer-credits">
         <strong class="footer-credits-copy">Farhim Ferdous &copy; 2019</strong>
+
         <a href="https://github.com/AluBhorta/portfolio">View Source Code</a>
       </div>
     </div>
@@ -282,12 +287,8 @@
     <!-- particle.js -->
     <script src="./particle.js/particles.js"></script>
     <script>
-      particlesJS.load(
-        "particle-js",
-        "./particle.js/particles.json",
-        function() {
-          console.log("particles.js loaded - callback");
-        }
+      particlesJS.load("particle-js", "./particle.js/particles.json", () =>
+        console.log("particles.js background loaded")
       );
     </script>
 
