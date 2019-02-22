@@ -36,7 +36,7 @@
         <div class="home-subtitle">
           <h3>Software Developer | UI/UX Designer | Open Source Enthusiast</h3>
         </div>
-        <img class="home-img" alt="profile-image" />
+        <img class="home-img" alt="profile-image" src="./img/profile.jpeg" />
         <div class="home-desc">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
@@ -124,42 +124,76 @@
         <h1 class="section-title">Projects</h1>
         <div class="project-showcase">
           <div class="project-1">
-            <img src="" alt="project-thumnail" class="prj-img" />
+            <img
+              src="./img/thumb-winter-parallax.png  "
+              alt="project-thumnail"
+              class="prj-img"
+            />
             <h3 class="prj-title">Winter Parallax</h3>
             <p class="prj-desc">
               A mockup HTML | CSS Site using basic Parallax Effect.
             </p>
             <div class="prj-links">
-              <a href="#" class="prj-view">View Project</a
-              ><a href="#" class="prj-src">View Source</a>
+              <a
+                href="https://alubhorta.github.io/winter-parallax/"
+                class="prj-view"
+                >View Project</a
+              ><a
+                href="https://github.com/AluBhorta/winter-parallax"
+                class="prj-src"
+                >View Source</a
+              >
             </div>
           </div>
           <div class="project-2">
-            <img src="" alt="project-thumnail" class="prj-img" />
+            <img
+              src="./img/thumb-grid-image-gallery.png"
+              alt="project-thumnail"
+              class="prj-img"
+            />
             <h3 class="prj-title">Grid Image Gallery</h3>
             <p class="prj-desc">
               A responsive image gallery using CSS Grid and Javascript which
               optimally places randomly sized images into a Complex Gird.
             </p>
             <div class="prj-links">
-              <a href="#" class="prj-view">View Project</a
-              ><a href="#" class="prj-src">View Source</a>
+              <a
+                href="https://alubhorta.github.io/grid-image-gallery/"
+                class="prj-view"
+                >View Project</a
+              ><a
+                href="https://github.com/AluBhorta/grid-image-gallery"
+                class="prj-src"
+                >View Source</a
+              >
             </div>
           </div>
           <div class="project-3">
-            <img src="" alt="project-thumnail" class="prj-img" />
+            <img
+              src="./img/thumb-meme-generator.png"
+              alt="project-thumnail"
+              class="prj-img"
+            />
             <h3 class="prj-title">React Meme Generator</h3>
             <p class="prj-desc">
               A simple react application to make your own memes.
               <em>"Don't Let your Memes be Dreams."</em>
             </p>
             <div class="prj-links">
-              <a href="#" class="prj-view">View Project</a
-              ><a href="#" class="prj-src">View Source</a>
+              <a class="prj-view deactive">View Project</a
+              ><a
+                href="https://github.com/AluBhorta/react-meme-generator"
+                class="prj-src"
+                >View Source</a
+              >
             </div>
           </div>
           <div class="project-4">
-            <img src="" alt="project-thumnail" class="prj-img" />
+            <img
+              src="./img/thumb-intergrid.png"
+              alt="project-thumnail"
+              class="prj-img"
+            />
             <h3 class="prj-title">InterGrid</h3>
             <p class="prj-desc">
               A simple and responsive website for an imaginary company named
@@ -167,20 +201,30 @@
               CSS Grid.
             </p>
             <div class="prj-links">
-              <a href="#" class="prj-view">View Project</a
-              ><a href="#" class="prj-src">View Source</a>
+              <a href="https://alubhorta.github.io/intergrid/" class="prj-view"
+                >View Project</a
+              ><a href="https://github.com/AluBhorta/intergrid" class="prj-src"
+                >View Source</a
+              >
             </div>
           </div>
           <div class="project-5">
-            <img src="" alt="project-thumnail" class="prj-img" />
+            <img
+              src="./img/thumb-coffee-koi.png"
+              alt="project-thumnail"
+              class="prj-img"
+            />
             <h3 class="prj-title">Coffee Koi</h3>
             <p class="prj-desc">
               Simple prototype site of a totally real coffee shop named 'Coffee
               Koi'.
             </p>
             <div class="prj-links">
-              <a href="#" class="prj-view">View Project</a
-              ><a href="#" class="prj-src">View Source</a>
+              <a href="https://alubhorta.github.io/coffee-koi/" class="prj-view"
+                >View Project</a
+              ><a href="https://github.com/AluBhorta/coffee-koi" class="prj-src"
+                >View Source</a
+              >
             </div>
           </div>
         </div>
@@ -199,12 +243,15 @@
         <h1 class="section-title">Contact Me</h1>
 
         <!-- form -->
-        <form onsubmit="handleSubmit()">
-          <input type="text" placeholder="Enter your name" />
+        <form
+          action="https://formspree.io/farhim.ferdous3@gmail.com"
+          method="POST"
+        >
+          <input type="text" placeholder="Enter your name" name="name" />
           <br />
-          <input type="text" placeholder="Enter your email" />
+          <input type="text" placeholder="Enter your email" name="email" />
           <br />
-          <textarea placeholder="Enter your message"></textarea>
+          <textarea placeholder="Enter your message" name="message"></textarea>
           <br />
           <button class="btn">Send</button>
         </form>

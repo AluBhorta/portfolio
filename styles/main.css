@@ -42,14 +42,14 @@ h4 {
 #nav a {
   text-decoration: none;
   background-color: #162d4ddc;
-  color: #f1f1f1e3;
+  color: #fffffff5;
   -webkit-transition: 200ms cubic-bezier(0.26, -1.1, 0.57, 2.01);
   transition: 200ms cubic-bezier(0.26, -1.1, 0.57, 2.01);
   padding: 1rem;
 }
 
 #nav a:hover {
-  background-color: #f1f1f1e3;
+  background-color: #fffffff5;
   color: #cc804eef;
 }
 
@@ -71,7 +71,7 @@ h4 {
 
 .main-content > div:nth-child(even) {
   background-color: #2c2d36e5;
-  color: #f1f1f1e3;
+  color: #fffffff5;
   -webkit-box-shadow: 5px 5px 10px #162d4ddc inset;
           box-shadow: 5px 5px 10px #162d4ddc inset;
 }
@@ -99,6 +99,11 @@ h4 {
 
 #home h3 {
   color: #4a6854;
+}
+
+#home img {
+  width: 150px;
+  border-radius: 50%;
 }
 
 .section-title {
@@ -173,6 +178,7 @@ h4 {
 
 #skills h4 {
   font-size: 1.5rem;
+  color: #fffffff5;
 }
 
 #projects h1 {
@@ -186,7 +192,7 @@ h4 {
   display: grid;
   -ms-grid-columns: (minmax(350px, 1fr))[auto-fill];
       grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-  grid-gap: 10px;
+  grid-gap: 1.5rem;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -216,6 +222,14 @@ h4 {
 #projects .prj-links a:hover {
   background-color: #45b66bed;
   color: #cc804eef;
+}
+
+#projects .deactive {
+  cursor: not-allowed;
+}
+
+#projects .prj-img {
+  width: 100%;
 }
 
 #contact .contact-intro {
@@ -276,7 +290,7 @@ h4 {
   border-radius: 4px;
   border: 0;
   background-color: #1e4272dc;
-  color: #f1f1f1e3;
+  color: #fffffff5;
   font-weight: bold;
   text-transform: uppercase;
   -webkit-box-shadow: 2px 2px 20px #2c2d36e5;
@@ -299,7 +313,7 @@ h4 {
   justify-items: center;
   padding: 3rem;
   background-color: #2c2d36e5;
-  color: #f1f1f1e3;
+  color: #fffffff5;
   -webkit-box-shadow: 5px 5px 50px #000000e1 inset;
           box-shadow: 5px 5px 50px #000000e1 inset;
   text-align: center;
@@ -321,7 +335,7 @@ h4 {
           justify-content: center;
   -ms-flex-line-pack: center;
       align-content: center;
-  background-color: #f1f1f1e3;
+  background-color: #fffffff5;
   width: 50px;
   height: 50px;
   border-radius: 50%;
