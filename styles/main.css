@@ -5,6 +5,7 @@
 
 html,
 body {
+  width: 100vw;
   margin: 0;
   padding: 0;
   border: 0;
@@ -17,6 +18,12 @@ h2,
 h3,
 h4 {
   margin: 0;
+}
+
+#nav,
+#particle-js,
+.main-content {
+  width: 100%;
 }
 
 #nav {
@@ -84,7 +91,7 @@ h4 {
   min-height: 100vh;
   min-width: 100%;
   background-color: #d18d5fe5;
-  padding-bottom: 2rem;
+  padding: 2rem 0;
   display: -ms-grid;
   display: grid;
   justify-items: center;
@@ -165,10 +172,6 @@ h4 {
 
 #about .edu a:hover {
   color: #d18d5fe5;
-}
-
-#skills {
-  padding: 10px 0;
 }
 
 #skills .skill-cols {

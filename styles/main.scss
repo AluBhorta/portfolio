@@ -27,6 +27,7 @@ $light-col: #fffffff5;
 
 html,
 body {
+  width: 100vw;
   margin: 0;
   padding: 0;
   border: 0;
@@ -42,6 +43,12 @@ h4 {
 }
 
 // CUSTOM STYLES //
+
+#nav,
+#particle-js,
+.main-content {
+  width: 100%;
+}
 
 // nav
 #nav {
@@ -108,7 +115,7 @@ h4 {
   min-height: 100vh;
   min-width: 100%;
   background-color: $main-orange-col;
-  padding-bottom: 2rem;
+  padding: 2rem 0;
   display: grid;
 
   justify-items: center;
@@ -190,7 +197,7 @@ h4 {
 
 // skills
 #skills {
-  padding: 10px 0;
+  // padding: 30px 10px;
   .skill-cols {
     height: 80%;
     width: 100%;
