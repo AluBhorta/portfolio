@@ -41,7 +41,7 @@ h4 {
 
 #nav a {
   text-decoration: none;
-  background-color: #162d4ddc;
+  background-color: #162d4df5;
   color: #fffffff5;
   -webkit-transition: 200ms cubic-bezier(0.26, -1.1, 0.57, 2.01);
   transition: 200ms cubic-bezier(0.26, -1.1, 0.57, 2.01);
@@ -50,7 +50,7 @@ h4 {
 
 #nav a:hover {
   background-color: #fffffff5;
-  color: #cc804eef;
+  color: #d18d5fef;
 }
 
 #nav .active {
@@ -61,7 +61,7 @@ h4 {
 .main-content > div {
   min-height: 100vh;
   width: 100%;
-  background-color: #cc804eef;
+  background-color: #d18d5fef;
   padding: 2rem;
   display: -ms-grid;
   display: grid;
@@ -72,8 +72,8 @@ h4 {
 .main-content > div:nth-child(even) {
   background-color: #2c2d36e5;
   color: #fffffff5;
-  -webkit-box-shadow: 5px 5px 10px #162d4ddc inset;
-          box-shadow: 5px 5px 10px #162d4ddc inset;
+  -webkit-box-shadow: 5px 5px 10px #162d4df5 inset;
+          box-shadow: 5px 5px 10px #162d4df5 inset;
 }
 
 #home {
@@ -93,10 +93,6 @@ h4 {
   text-transform: uppercase;
 }
 
-#home .home-desc {
-  padding: 0 4rem;
-}
-
 #home h3 {
   color: #4a6854;
 }
@@ -104,6 +100,12 @@ h4 {
 #home img {
   width: 150px;
   border-radius: 50%;
+}
+
+#home .home-desc-para {
+  padding: 0 3rem;
+  text-align: center;
+  color: #fffffff5;
 }
 
 .section-title {
@@ -138,7 +140,7 @@ h4 {
 }
 
 #about .edu a:hover {
-  color: #cc804eef;
+  color: #d18d5fef;
 }
 
 #skills .skill-cols {
@@ -199,8 +201,8 @@ h4 {
 }
 
 #projects .project-showcase > div {
-  -webkit-box-shadow: 5px 5px 20px #cc804eef;
-          box-shadow: 5px 5px 20px #cc804eef;
+  -webkit-box-shadow: 5px 5px 20px #d18d5fef;
+          box-shadow: 5px 5px 20px #d18d5fef;
   display: -ms-grid;
   display: grid;
   justify-items: center;
@@ -221,7 +223,7 @@ h4 {
 
 #projects .prj-links a:hover {
   background-color: #45b66bed;
-  color: #cc804eef;
+  color: #d18d5fef;
 }
 
 #projects .deactive {
@@ -262,8 +264,8 @@ h4 {
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
   grid-column: 1/3;
-  -webkit-box-shadow: 5px 5px 25px #1e4272dc;
-          box-shadow: 5px 5px 25px #1e4272dc;
+  -webkit-box-shadow: 5px 5px 25px #1e4272ec;
+          box-shadow: 5px 5px 25px #1e4272ec;
 }
 
 #contact form {
@@ -289,7 +291,7 @@ h4 {
   padding: 10px 16px;
   border-radius: 4px;
   border: 0;
-  background-color: #1e4272dc;
+  background-color: #1e4272ec;
   color: #fffffff5;
   font-weight: bold;
   text-transform: uppercase;
@@ -340,6 +342,16 @@ h4 {
   height: 50px;
   border-radius: 50%;
   cursor: pointer;
+  -webkit-transition: 150ms ease-in-out;
+  transition: 150ms ease-in-out;
+}
+
+#footer .soc-icons a.soc-icon:hover {
+  background-color: #e0894ff8;
+}
+
+#footer .footer-credits .footer-credits-copy {
+  text-transform: uppercase;
 }
 
 #footer .footer-credits a {
@@ -357,6 +369,6 @@ h4 {
 
 #footer .footer-credits a:hover {
   background-color: #45b66bed;
-  color: #cc804eef;
+  color: #d18d5fef;
 }
 /*# sourceMappingURL=main.css.map */
