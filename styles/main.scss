@@ -12,6 +12,7 @@ $main-mint-col: #45b66bed;
 $main-mint-light-col: #56e987ed;
 
 $firebrick: #b22222;
+$red: #ff0000;
 
 $grey-dark: #2c2d36e5;
 $grey: #595b6df6;
@@ -27,7 +28,6 @@ $light-col: #fffffff5;
 
 html,
 body {
-  width: 100vw;
   margin: 0;
   padding: 0;
   border: 0;
@@ -407,12 +407,11 @@ h4 {
 
 // particle.js
 #particle-js {
+  background-color: $firebrick;
   height: 120vh;
   width: 100vw;
-  background-color: $dark-col;
   position: fixed;
   z-index: -10;
-  // opacity: 0.5;
 }
 
 // media queries
