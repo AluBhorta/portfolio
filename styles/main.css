@@ -19,30 +19,6 @@ h4 {
   margin: 0;
 }
 
-@media (max-width: 768px) {
-  #nav .nav-toggle {
-    display: block;
-  }
-  #nav ul {
-    width: 100%;
-  }
-  #nav ul li {
-    width: 100%;
-    display: block;
-    text-align: center;
-    margin: 0;
-    border: 0;
-    border-bottom: #000000e1 1px solid;
-  }
-  #nav li a {
-    display: block;
-    width: 100%;
-  }
-  #nav .collapse {
-    display: none;
-  }
-}
-
 #nav,
 #particle-js,
 .main-content {
@@ -187,6 +163,7 @@ h4 {
 }
 
 #about .edu a {
+  font-size: 1.4rem;
   color: #45b66bed;
   text-decoration: underline;
   -webkit-transition: 1000ms;
@@ -457,5 +434,29 @@ h4 {
   width: 100vw;
   position: fixed;
   z-index: -10;
+}
+
+@media (max-width: 768px) {
+  #nav .nav-toggle {
+    display: block;
+  }
+  #nav ul {
+    width: 100%;
+  }
+  #nav ul li {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 0;
+    border: 0;
+    border-bottom: #000000e1 1px solid;
+  }
+  #nav li a {
+    display: block;
+    width: 100%;
+  }
+  #nav .collapse {
+    display: none;
+  }
 }
 /*# sourceMappingURL=main.css.map */

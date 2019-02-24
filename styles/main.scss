@@ -1,11 +1,11 @@
 // colors, variables and resets
 @import "./scss/base";
 
-// media queries
-@import "./scss/media";
-
 // overall layouts, intersecting/common styling
 @import "./scss/layout";
 
 // all components
 @import "./scss/components/all";
+
+// media queries
+@import "./scss/media";
