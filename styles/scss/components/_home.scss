@@ -1,0 +1,32 @@
+// home
+#home {
+  padding: 3rem;
+  padding-top: 5rem;
+  display: grid;
+  grid-template-rows: 3fr 1fr 3fr 3fr;
+  justify-items: center;
+
+  .home-title {
+    margin-top: 3rem;
+    font: 4rem cursive;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    color: $main-mint-light-col;
+    font-size: 1.4rem;
+  }
+
+  img {
+    width: 150px;
+    border-radius: 50%;
+  }
+
+  .home-desc-para {
+    font-size: 1.2rem;
+    padding: 0 3rem;
+    text-align: center;
+    color: $light-col;
+  }
+}

@@ -1,0 +1,54 @@
+// projects
+#projects {
+  width: 100%;
+
+  .project-showcase {
+    padding: 1rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+    grid-gap: 1.5rem;
+    justify-content: center;
+
+    & > div {
+      box-shadow: 5px 5px 20px $main-orange-col;
+      display: grid;
+      justify-items: center;
+      padding: 1rem;
+    }
+  }
+
+  .prj-links {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    justify-content: center;
+    grid-gap: 10px;
+    a {
+      justify-self: center;
+      align-self: center;
+
+      max-width: 150px;
+      text-decoration: none;
+      background-color: $grey;
+      color: $main-mint-col;
+      border: $main-mint-col 1px solid;
+      transition: 150ms all ease-in;
+
+      padding: 10px 16px;
+      border-radius: 20px;
+
+      &:hover {
+        background-color: $main-mint-col;
+        color: $main-orange-col;
+      }
+    }
+  }
+  .deactive {
+    cursor: not-allowed;
+  }
+
+  .prj-img {
+    width: 100%;
+  }
+}

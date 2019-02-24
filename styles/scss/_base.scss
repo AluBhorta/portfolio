@@ -1,0 +1,43 @@
+// variables
+$main-col-dark: #162d4df5;
+$main-col: #1e4272ec;
+$main-col-light: #485464ce;
+
+$main-orange-dark-col: #995e36d2;
+$main-orange-col: #d18d5fe5;
+$main-orange-light-col: #e0894ff8;
+
+$main-mint-dark-col: #4a6854;
+$main-mint-col: #45b66bed;
+$main-mint-light-col: #56e987ed;
+
+$firebrick: #b22222;
+$red: #ff0000;
+
+$grey-dark: #2c2d36e5;
+$grey: #595b6df6;
+$grey-light: #ccc;
+
+$dark-col: #000000e1;
+$light-col: #fffffff5;
+
+// reset
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}

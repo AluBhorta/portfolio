@@ -1,0 +1,36 @@
+// width
+#nav,
+#particle-js,
+.main-content {
+  width: 100%;
+}
+
+// main-content
+.main-content {
+  width: 100%;
+}
+
+// immedieate chilren to main-content
+.main-content > div {
+  min-height: 100vh;
+  min-width: 100%;
+  background-color: $main-orange-col;
+  padding: 2rem 0;
+  display: grid;
+
+  justify-items: center;
+  padding-top: 4rem;
+
+  &:nth-child(even) {
+    background-color: $grey-dark;
+    color: $light-col;
+    box-shadow: 5px 5px 10px $main-col-dark inset;
+  }
+}
+
+// sec titles
+.section-title {
+  font-size: 3.2rem;
+  text-decoration: underline dotted $main-mint-col;
+  padding: 2rem;
+}

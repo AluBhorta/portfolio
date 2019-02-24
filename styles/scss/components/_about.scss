@@ -1,0 +1,26 @@
+// about me
+#about {
+  padding: 4rem;
+
+  & > div {
+    width: 100%;
+    // text-align: center;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+    color: $main-orange-light-col;
+  }
+  h3 {
+    font-size: 1.6rem;
+  }
+  .edu a {
+    color: $main-mint-col;
+    text-decoration: underline;
+    transition: 1000ms;
+
+    &:hover {
+      color: $main-orange-col;
+    }
+  }
+}

@@ -1,0 +1,55 @@
+// nav
+#nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  box-shadow: 0px 5px 10px $dark-col;
+  z-index: 100;
+  background-color: $grey;
+
+  ul {
+    width: 100%;
+    margin: 0;
+    // padding: 1rem;
+    padding: 16px 20px;
+  }
+
+  li {
+    display: inline;
+    margin-left: 2rem;
+  }
+
+  a {
+    text-decoration: none;
+    background-color: $main-col-dark;
+    color: $light-col;
+    transition: 200ms cubic-bezier(0.26, -1.1, 0.57, 2.01);
+    padding: 1rem;
+
+    &:hover {
+      background-color: $light-col;
+      color: $main-orange-col;
+    }
+  }
+
+  .active {
+    border-bottom: 4px solid $main-mint-col;
+    color: $main-mint-col;
+  }
+
+  .nav-toggle {
+    width: 100%;
+    padding: 12px 20px;
+    text-align: left;
+    font-size: 2rem;
+    display: none;
+  }
+
+  #toggle-icon {
+    cursor: pointer;
+  }
+
+  .nav-btn-container {
+    transition: 200ms ease-in-out;
+  }
+}

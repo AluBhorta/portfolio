@@ -1,0 +1,27 @@
+// media queries
+@media (max-width: 768px) {
+  #nav {
+    .nav-toggle {
+      display: block;
+    }
+    ul {
+      width: 100%;
+    }
+    ul li {
+      width: 100%;
+      display: block;
+      text-align: center;
+      margin: 0;
+      border: 0;
+      border-bottom: $dark-col 1px solid;
+    }
+    li a {
+      display: block;
+      width: 100%;
+    }
+    .collapse {
+      display: none;
+      // opacity: 0;
+    }
+  }
+}
