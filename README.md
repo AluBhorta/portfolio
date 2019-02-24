@@ -1,6 +1,6 @@
 # Portfolio
 
-Personal Portfolio built purely in HTML and SCSS.
+Personal Portfolio built purely in HTML, SCSS and JS.
 
 A lot of Spaghetti code alert!
 
