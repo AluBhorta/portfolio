@@ -5,14 +5,15 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
     grid-gap: 5px;
 
     & > p {
       box-shadow: 3px 3px 15px $main-mint-col;
       background-color: $grey-light;
       font-weight: bold;
-      border-radius: 20px;
-      padding: 5px 16px;
+      border-radius: 14px;
+      padding: 1rem 1.8rem;
       display: grid;
       justify-content: center;
       align-content: center;
