@@ -413,11 +413,9 @@ p {
 }
 
 #footer .soc-icons {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
-  grid-gap: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 #footer .soc-icons a.soc-icon {
@@ -435,6 +433,7 @@ p {
   cursor: pointer;
   -webkit-transition: 500ms ease-out;
   transition: 500ms ease-out;
+  margin: 10px 20px;
 }
 
 #footer .soc-icons a.soc-icon:hover {

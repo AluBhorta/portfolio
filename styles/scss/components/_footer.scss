@@ -13,9 +13,10 @@
   text-align: center;
 
   .soc-icons {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1rem;
+    display: flex;
+
+    // grid-template-columns: repeat(2, 1fr);
+    // grid-gap: 1rem;
 
     a.soc-icon {
       display: grid;
@@ -27,6 +28,7 @@
       border-radius: 50%;
       cursor: pointer;
       transition: 500ms ease-out;
+      margin: 10px 20px;
 
       &:hover {
         background-color: $main-orange-light-col;
