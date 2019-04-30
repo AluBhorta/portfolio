@@ -153,6 +153,13 @@ a {
   padding: 4rem;
 }
 
+#about .prelude-content {
+  font-size: 1.3rem;
+  letter-spacing: 1.5px;
+  padding: 1rem 1.6rem;
+  text-indent: 10px;
+}
+
 #about > div {
   width: 100%;
 }
@@ -176,6 +183,10 @@ a {
 
 #about .edu a:hover {
   color: #d18d5fe5;
+}
+
+#about .edu-content {
+  padding: 1rem 1.6rem;
 }
 
 #skills .skill-cols {
