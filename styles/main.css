@@ -19,6 +19,10 @@ h4 {
   margin: 0;
 }
 
+a {
+  color: #45b66bed;
+}
+
 #nav,
 #particle-js,
 .main-content {
@@ -188,9 +192,9 @@ h4 {
 }
 
 #skills .skill-cols > div {
+  padding: 40px;
   -webkit-box-shadow: 2px 4px 20px #4a6854;
           box-shadow: 2px 4px 20px #4a6854;
-  padding: 1rem;
   background-color: #995e36d2;
   display: -ms-grid;
   display: grid;
@@ -272,6 +276,11 @@ h4 {
 #projects .prj-links a:hover {
   background-color: #45b66bed;
   color: #d18d5fe5;
+}
+
+#projects .proj-headers {
+  text-align: center;
+  padding: 1.5rem 2.4rem;
 }
 
 #projects .deactive {
