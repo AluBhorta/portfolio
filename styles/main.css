@@ -23,6 +23,10 @@ a {
   color: #45b66bed;
 }
 
+p {
+  font-size: 1.2rem;
+}
+
 #nav,
 #particle-js,
 .main-content {
@@ -134,19 +138,23 @@ a {
 
 #home h3 {
   color: #56e987ed;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
 }
 
 #home img {
-  width: 150px;
+  width: 140px;
   border-radius: 50%;
+  -webkit-box-shadow: 0px 3px 8px #45b66bed;
+          box-shadow: 0px 3px 8px #45b66bed;
 }
 
-#home .home-desc-para {
-  font-size: 1.2rem;
-  padding: 0 3rem;
-  text-align: center;
+#home .home-desc {
   color: #fffffff5;
+  text-align: center;
+  font-size: 1.3rem;
+  letter-spacing: 1.5px;
+  padding: 1rem 2rem;
+  text-indent: 10px;
 }
 
 #about {
@@ -300,6 +308,11 @@ a {
 
 #projects .prj-img {
   width: 100%;
+}
+
+#projects .prj-title {
+  color: #45b66bed;
+  font-size: 1.5rem;
 }
 
 #contact .contact-intro {
