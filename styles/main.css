@@ -44,6 +44,9 @@ p {
   padding: 2rem 0;
   display: -ms-grid;
   display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   justify-items: center;
   padding-top: 4rem;
 }
@@ -202,8 +205,9 @@ p {
   width: 100%;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(250px, 450px))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(250px, 450px));
+  padding: 1rem;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 2rem;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -217,6 +221,7 @@ p {
   background-color: #995e36d2;
   display: -ms-grid;
   display: grid;
+  border-radius: 4px;
   justify-items: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -230,6 +235,10 @@ p {
   color: #56e987ed;
   -webkit-text-decoration: overline underline #000000e1;
           text-decoration: overline underline #000000e1;
+}
+
+#skills .skill-cols > div p {
+  text-align: center;
 }
 
 #skills h4 {
@@ -261,6 +270,7 @@ p {
   display: grid;
   justify-items: center;
   padding: 1rem;
+  border-radius: 10px;
 }
 
 #projects .prj-links {
@@ -308,6 +318,7 @@ p {
 
 #projects .prj-img {
   width: 100%;
+  border-radius: 5px;
 }
 
 #projects .prj-title {
@@ -372,6 +383,7 @@ p {
   -webkit-box-shadow: 2px 2px 10px #2c2d36e5;
           box-shadow: 2px 2px 10px #2c2d36e5;
   padding: 0.5rem;
+  border-radius: 4px;
 }
 
 #contact form textarea {
@@ -379,7 +391,7 @@ p {
 }
 
 #contact form button {
-  padding: 10px 16px;
+  padding: 1rem 2rem;
   border-radius: 4px;
   border: 0;
   background-color: #1e4272ec;
@@ -410,6 +422,9 @@ p {
   -webkit-box-shadow: 5px 5px 50px #000000e1 inset;
           box-shadow: 5px 5px 50px #000000e1 inset;
   text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #footer .soc-icons {
