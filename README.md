@@ -7,8 +7,8 @@ A lot of Spaghetti code alert!
 ## Dependencies
 
 - Font(s) used: Montserrat
-- Icons colected from [FLATICON](https://www.flaticon.com/)
-- Carousel by [Glider.js](https://nickpiscitelli.github.io/Glider.js/)
+- Icons collected from [FLATICON](https://www.flaticon.com/)
+  <!-- - Carousel by [Glider.js](https://nickpiscitelli.github.io/Glider.js/) -->
 - [Particle.js](https://github.com/VincentGarreau/particles.js/) as Background
 
 ## Liscence
